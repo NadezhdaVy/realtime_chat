@@ -24,7 +24,7 @@ io.on('connection', socket => {
 		socket.join(user.room)
 		
 		// run when client connects: to one
-	socket.emit('message', formatMessage(botName, 'welcome to chatCord'))
+	socket.emit('message', formatMessage(botName, 'Welcome to chat'))
 
 	// broadcast when a user connects: to all except one who connects
 	socket.broadcast.to(user.room).emit('message', formatMessage(botName, `${user.username} has joined the chat`) );

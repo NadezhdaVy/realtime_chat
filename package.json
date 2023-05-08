@@ -9,9 +9,7 @@
   },
   "author": "Nadezhda Vysokos",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/NadezhdaVy/chat/issues"
-  },
+
   "dependencies": {
     "express": "^4.18.2",
     "moment": "^2.29.4",
